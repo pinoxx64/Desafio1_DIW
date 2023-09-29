@@ -1,5 +1,11 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
 body{
     margin: 0%;
+    display: flex;
+    flex-direction: column;
 }
 header{
     background-color: #3b3b3b;
@@ -24,13 +30,33 @@ main{
     display: flex;
     justify-content:center;
     flex-direction: column;
-    align-items: center;
     background-color: red;
+}
+.desTienda{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+}
+#zapatoBonito{
+    width: 600px; 
+    height: 300px;
+    border-radius: 2%;
+}
+.desPro{
+    background-color: brown;
+}
+.piel{
+    background-color: yellow;
+}
+.mapa{
+    background-color: steelblue;
 }
 footer{
     position: absolute;
     width: 100%;
     bottom: 0;
     background-color: blue;
-    
+    padding: 1em 0;
 }
