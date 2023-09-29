@@ -6,57 +6,101 @@ body{
     margin: 0%;
     display: flex;
     flex-direction: column;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 header{
     background-color: #3b3b3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #logo{  
     height: 100px;
     width: 400px;
 }
 #cesta{
-    position: absolute;
     height: 40px;
     width: 40px;
-    float: right;
-    right: 0%;
-    top: 4.5%;
 }
 #cesta:hover{
     height: 45px;
     width: 45px;
 }
+#nave{
+    text-decoration: none;
+    color:white;
+}
+#nave:hover{
+    color:khaki;
+}
 main{
     display: flex;
     justify-content:center;
     flex-direction: column;
-    background-color: red;
+    color: aliceblue;
+    background-color:rgb(31, 28, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.desTienda{
-    background-color: aqua;
+#desTienda{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    padding: 10px;
+    padding: 12%;
 }
 #zapatoBonito{
     width: 600px; 
     height: 300px;
     border-radius: 2%;
 }
-.desPro{
-    background-color: brown;
+#desPro{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 12%;
 }
-.piel{
-    background-color: yellow;
+#hombreCorbata{
+    width: 250px;
+    height: 400px;
+    border-radius: 2%;
 }
-.mapa{
-    background-color: steelblue;
+#piel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+#mapa{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     position: absolute;
     width: 100%;
     bottom: 0;
-    background-color: blue;
+    background-color: #3b3b3b;
     padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.centro{
+    display: flex;
+    justify-content:space-between;
+    color: aliceblue;
+    background-color:aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cloIzq{
+    background-color: red;
+    display: flex;
+}
+.colDer{
+    background-color: blue;
+    width: 50%;
 }
