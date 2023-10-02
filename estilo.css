@@ -2,6 +2,9 @@ html{
     min-height: 100%;
     position: relative;
 }
+a{
+    text-decoration: none;
+}
 body{
     margin: 0%;
     display: flex;
@@ -31,7 +34,6 @@ header{
     width: 45px;
 }
 #nave{
-    text-decoration: none;
     color:white;
 }
 #nave:hover{
@@ -89,18 +91,94 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-.centro{
+.centro{    
     display: flex;
+    padding-left: 2%;
+    padding-top: 2%;
     justify-content:space-between;
     color: aliceblue;
-    background-color:aqua;
+    background-color:rgb(31, 28, 28);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .colIzq{
-    background-color: red;
+    background-color: aliceblue ;
+    padding: 2%;
+    color: #3b3b3b;
+    border-radius:2%;
+    height: 12%;
+    float: left;
+}
+.colIzq a:hover{
+    color: black;
+}
+.cate{
+    padding: 2%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .colDer{
-    background-color: blue;
-    width: 50%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.colDer img{
+    height: 177px;
+    width: 250px;
+}
+.zapa1{
+    padding: 1%;
+}
+.zapa2{
+    padding: 1%;
+}
+.zapa3{
+    padding: 1%;
+}
+.zapa4{
+    padding: 1%;
+}
+.zapa5{
+    padding: 1%;
+}
+.zapa6{
+    padding: 1%;
+}
+.cami1{
+    padding: 1%;
+}
+.cami2{
+    padding: 1%;
+}
+.cami3{
+    padding: 1%;
+}
+.cami4{
+    padding: 1%;
+}
+.cami5{
+    padding: 1%;
+}
+.cami6{
+    padding: 1%;
+}
+.cintu1{
+    padding: 1%;
+}
+.cintu2{
+    padding: 1%;
+}
+.cintu3{
+    padding: 1%;
+}
+.cintu4{
+    padding: 1%;
+}
+.cintu5{
+    padding: 1%;
+}
+.cintu6{
+    padding: 1%;
 }
