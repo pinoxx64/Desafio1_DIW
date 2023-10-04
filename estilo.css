@@ -119,12 +119,31 @@ footer{
     flex-direction: column;
 }
 .colDer{
-    width: 75%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 50px;
 }
-.colDer img{
+#zapa{
+    width: 255px;
+}
+#cami{
+    width: 182px;
+}
+#cintu{
+    width: 255px;
+}
+.colDer #zapa img{
+    height: 177px;
+    width: 250px;
+    border-radius: 2%;
+}
+.colDer #cami img{
+    height: 250px;
+    width: 177px;
+    border-radius: 2%;
+}
+.colDer #cintu img{
     height: 177px;
     width: 250px;
     border-radius: 2%;
